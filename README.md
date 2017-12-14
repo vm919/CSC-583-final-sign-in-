@@ -1,21 +1,3 @@
-## Steps for Setting mongodb
-## In Terminal 1
-sudo mkdir -p /data/db
-sudo chown -R `id -un` /data/db
-mongod
-
-## In Terminal 2
-mongo
-use users
-
-## In Terminal 3
-npm install --save
-npm run dev
-
-
-## In Terminal 4
-node server
-
 # CSC-583-final-sign-in-
 
 ## Non-Functional Requirements:
@@ -47,6 +29,26 @@ Two user interfaces are provided by the application viz. user registration and d
 The application allows the administrator to view the list of registered users.
 
 ## Installation Instructions:
+
+## Steps for Setting mongodb
+
+## In Terminal 1
+
+sudo mkdir -p /data/db
+sudo chown -R `id -un` /data/db
+mongod
+
+## In Terminal 2
+mongo
+use users
+
+## In Terminal 3
+npm install --save
+npm run dev
+
+
+## In Terminal 4
+node server
 
 * Run front-end: npm run dev
 

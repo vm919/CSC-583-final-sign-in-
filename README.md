@@ -57,5 +57,14 @@ node server
 * Start Mongo: sudo service mongod start
 
 ## Architecture:
+The application is devceloped in MEVN stack.
+In order to implement the front end, Vuejs has been used, and it communicates with express to get response using endpoints. For storing and retreiving data from database (i.e. mongodb) the server communicates with the database.
+
+## Plan Of Action:
+[X] Analyze the non-functional requirements
+[X] Setup the environment and connectvity
+[X] Registration page
+[X] Admin page
+
 
 

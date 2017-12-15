@@ -64,10 +64,10 @@ In order to implement the front end, Vuejs has been used, and it communicates wi
 
 
 ## Plan Of Action:
-* Analyze the non-functional requirements
-* Setup the environment and connectvity
-* Registration page
-* Admin page
+- [x] Analyze the non-functional requirements
+- [x] Setup the environment and connectvity
+- [x] Registration page
+- [x] Admin page
 
 
 

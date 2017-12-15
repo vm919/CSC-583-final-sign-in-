@@ -57,8 +57,11 @@ node server
 * Start Mongo: sudo service mongod start
 
 ## Architecture:
-The application is devceloped in MEVN stack.
+For database, mongodb has been used. Nodejs has been used for web server and environment's execution. For API, ExpressJS has been used thus making it easy and quick to crud the data.
+The runtime enviroment for running the application is Nodejs.
+The application is devceloped in MEVN stack. Vuejs has been used for front-end.
 In order to implement the front end, Vuejs has been used, and it communicates with express to get response using endpoints. For storing and retreiving data from database (i.e. mongodb) the server communicates with the database.
+
 
 ## Plan Of Action:
 * Analyze the non-functional requirements
